@@ -1,0 +1,310 @@
+body{
+	font-family: none;
+	font-family: 'Francois One', sans-serif !important;
+	font-family: 'Open Sans', sans-serif;
+	background-attachment: fixed;
+	background-image: url(../img/sitio/pizza.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	opacity: 0.5
+	filter: alpha(opacity=50);
+}
+
+header{
+	margin-top: 100px;
+	
+}
+.navbar_header{
+	background-image: url(../img/sitio/pizza.jpg);
+	height: 450px;
+	margin-top: 5px;
+}
+.navbar-brand{
+	float: left;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+ul.nav_menu{
+	list-style-type: none;
+	margin: 0;
+	padding-top: 5px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+ul.nav_menu li{
+	float:right;
+}
+
+li a{
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 0.8rem;
+	font-style: bold;
+}
+
+li a:hover{
+	
+	color:#707070;
+	
+}
+
+.nav_header{
+	align-content: center;
+}
+
+.nav_titulo{
+	text-align: center;
+	margin-top : 150px;
+	color: #FFFFFF;
+}
+
+.nav_titulo h1{
+	font-size: 5rem;
+}
+
+.jumbotron_main{
+	height: 450px;
+	background-color: #FFFFFF;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	
+}
+
+.grid_restaurant{
+	padding-left: 50px;
+	padding-right: 50px;
+	height: 250px;
+}
+
+
+.row{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+.img_mesas{
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	width:100% !important;
+}
+
+.img_restoran{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	width:100% !important;
+}
+
+.text_mesas {
+	background-color: #FFFFFF;
+	padding-top: 30px !important;
+	text-align: center;
+}
+
+.text_mesas p{
+	font-family: 'Open Sans', sans-serif;
+	font-style: 300i;
+	font-size: 0.8rem;
+	margin-top: 20px;
+}
+
+.text_restoran{
+	background-color: #FFFFFF;
+	padding-top: 30px !important;
+	text-align: center;
+}
+
+.text_restoran p{
+	font-family: 'Open Sans', sans-serif;
+	font-style: 300i;
+	font-size: 0.8rem;
+	margin-top: 20px;
+}
+
+.grid_uno{
+	background-color: #FFFFFF;
+	padding-top: 30px !important;
+	text-align: center;
+}
+
+.grid_uno h3{
+	text-align: center;
+}
+
+.grid_uno p{
+	font-family: 'Open Sans', sans-serif;
+	font-style: 300i;
+	font-size: 0.8rem;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.grid_dos{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	width:100% !important;
+}
+
+.jumbotron_especial{
+	background-color: #17212a;
+	height: 200px;
+}
+
+#esp_titulo{
+	text-align: center;
+	margin-top : 80px;
+	color: #FFFFFF;
+}
+
+.carrito{
+	display: inline;
+	float: left;
+	align-content: center;
+	margin-left: 10px;
+}
+
+i{
+	font-size: 1.5rem;
+	
+}
+i:hover { 
+    color: #CC1924;
+}
+
+.cont_carta h3{
+	color: #FFFFFF;
+}
+
+.cont_carta p{
+	color: #FFFFFF;
+}
+
+.grid_carta{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.jumbotron_vacio{
+	background-image: url(../img/sitio/mesas.jpg);
+	height: 300px;
+}
+
+.grid_carta_titulo{
+	text-align: center;
+}
+
+.cont_carta{
+	background-color: #FFFFFF;
+}
+
+
+.jumbotron_carta h1{
+	color: #CC1924;
+}
+
+.grid_carta_subtitulo h2{
+	color: #000000;
+	border-top: solid 1px #CC1914;
+	padding-left: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+.grid_carta h3{
+	color: #000000;
+	font-size: 1.5rem;
+	display: block;
+	float: left;
+}
+
+.grid_carta p{
+	clear: left;
+	color: #707070;
+	font-size: 0.8rem;
+	display: block;
+}
+
+.input_footer{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.input_footer_dos{
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 250px;
+	display: block;
+	float: left;
+	box-sizing: border-box;
+}
+
+.btn{
+	display: block;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+iframe{
+	float: left;
+	border-radius: 5px;
+}
+
+.list_footer p{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-size: 1rem;
+	color: #FFFFFF;
+	font-family: 400;
+	text-align: center;
+}
+
+footer{
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+.footer_titulo{
+	text-align: left;
+	color: #FFFFFF;
+	font-size: 3rem;
+	font-style: bold;
+	margin-left: 10px;
+}
+
+
+.jumbotron_footer{
+	background-image: url(../img/sitio/pizzajumbo.jpg);
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+img{
+	border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {width: 100%;}
+}
+
+@media (min-width: 768px) {
+    /* For desktop: */
+    .col-xs-1 .col-sm-1 .col-md-1 .col-lg-1 {width: 8.33%;}
+    .col-xs-2 .col-sm-2 .col-md-2 .col-lg-1 {width: 16.66%;}
+    .col-xs-3 .col-sm-3 .col-md-3 .col-lg-3 {width: 25%;}
+    .col-xs-4 .col-sm-4 .col-md-4 .col-lg-4 {width: 33.33%;}
+    .col-xs-5 .col-sm-5 .col-md-5 .col-lg-5 {width: 41.66%;}
+    .col-xs-6 .col-sm-6 .col-md-6 .col-lg-6 {width: 50%;}
+    .col-xs-7 .col-sm-7 .col-md-7 .col-lg-7 {width: 58.33%;}
+    .col-xs-8 .col-sm-8 .col-md-8 .col-lg-8 {width: 66.66%;}
+    .col-xs-9 .col-sm-9 .col-md-9 .col-lg-8 {width: 75%;}
+    .col-xs-10 .col-sm-10 .col-md-10 .col-lg-10 {width: 83.33%;}
+    .col-xs-11 .col-sm-11 .col-md-11 .col.lg-11 {width: 91.66%;}
+    .col-xs-12 .col-sm-12 .col-md-12 .col-lg-12 {width: 100%;}
+}
